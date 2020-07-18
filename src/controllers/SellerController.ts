@@ -1,7 +1,7 @@
+/* eslint-disable no-console */
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable class-methods-use-this */
 import { Request, Response } from 'express';
-import Client from '../models/Clients';
 import Seller from '../models/Sellers';
 
 export default class SellerController {
